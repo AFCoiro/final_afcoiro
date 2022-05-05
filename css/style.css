@@ -1,0 +1,133 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: white;
+  /*header*/
+  /*section*/
+  /*footer*/ }
+  body a {
+    text-decoration: none; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-family: 'Rubik', sans-serif; }
+  body header .barraLogo {
+    background-color: black; }
+    body header .barraLogo .LogoTDT {
+      width: 20%; }
+    body header .barraLogo .BarraCyR .redes {
+      margin-bottom: 30px; }
+      body header .barraLogo .BarraCyR .redes .redS {
+        width: 20px; }
+    body header .barraLogo .BarraCyR .carrito {
+      width: 30px;
+      margin-left: 60%; }
+  body header .barraMenu {
+    background-color: #e12d26;
+    padding-left: 10%;
+    height: 40px; }
+    body header .barraMenu li {
+      border-bottom: 2px solid #e12d26; }
+      body header .barraMenu li a {
+        color: white; }
+        body header .barraMenu li a:hover {
+          color: #d7d7d7; }
+      body header .barraMenu li:hover {
+        border-bottom: 2px solid black; }
+  body section h1 {
+    margin: 3% auto 3% auto;
+    text-align: center; }
+  body section .miniBanner {
+    background-color: black;
+    margin: 3% auto 3% auto;
+    padding-top: 1rem; }
+    body section .miniBanner h5 {
+      color: #e12d26; }
+    body section .miniBanner p {
+      color: white; }
+    body section .miniBanner .iconoBanner {
+      width: 40px; }
+  body section .cajaDom {
+    margin: 8% auto 8% auto; }
+    body section .cajaDom .linksDom {
+      border: 2px solid white;
+      border-bottom: 2px solid #e12d26;
+      color: black;
+      margin: 1% 1% 1% 1%;
+      width: 250px; }
+      body section .cajaDom .linksDom:hover {
+        border: 2px solid #d7d7d7;
+        border-bottom: 2px solid #bf2721;
+        color: #5f5f5f; }
+      body section .cajaDom .linksDom a {
+        color: #5f5f5f; }
+        body section .cajaDom .linksDom a:hover {
+          color: black; }
+  body section .destacados {
+    margin-left: 10px; }
+    body section .destacados .estrella {
+      width: 30px; }
+  body .footer {
+    border-top: 3px solid #e12d26;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 20px; }
+    body .footer h5 {
+      font-size: 14px;
+      padding-top: 20px;
+      padding-bottom: 20px; }
+    body .footer .direcciones p {
+      color: black;
+      font-size: small;
+      text-align: center; }
+
+/*body*/
+body .consolaC .LinkConsolas .pagoConsolas h2 {
+  color: #e12d26; }
+
+body .consolaC .LinkConsolas .pagoConsolas .promos {
+  color: #41b629; }
+
+body .consolaC .LinkConsolas .pagoConsolas .opcionesPago {
+  width: auto; }
+
+body .consolaC .LinkConsolas .pagoConsolas .btnCompra {
+  background-color: #e12d26;
+  color: white;
+  width: auto;
+  margin-top: 3%;
+  padding: 10px 10px 10px 10px; }
+
+body .consolaC .LinkConsolas .pagoConsolas h3 {
+  margin-top: 4%; }
+
+body .consolaC h4 {
+  margin-top: 3%; }
+
+body #pestañaPagos .classFormPago .formInputGrupo {
+  margin: 5% auto 5% auto; }
+  body #pestañaPagos .classFormPago .formInputGrupo #divInternoForm {
+    border: 1px solid #5f5f5f;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: #d7d7d7; }
+    body #pestañaPagos .classFormPago .formInputGrupo #divInternoForm .btnCompra {
+      background-color: #e12d26;
+      color: white;
+      width: auto;
+      margin-top: 3%;
+      padding: 10px 10px 10px 10px; }
+
+body #pestañaPagos .classFormPago .table .fotoPago {
+  width: 20%; }
+
+body #pestañaPagos .classFormPago .leyendaPago1 {
+  color: #41b629; }
+
+body #pestañaPagos .classFormPago .leyendaPago2 {
+  font-size: 20px;
+  padding-top: 5%;
+  padding-bottom: 15%; }

@@ -1,0 +1,32 @@
+@import "var";
+
+body{
+    .consolaC{
+        .LinkConsolas{
+            .pagoConsolas{
+                h2{
+                    color: $color3;
+                }
+                .promos{
+                    color:$color4;
+                }
+                .opcionesPago{
+                    width: auto;
+                }
+                .btnCompra{
+                    background-color: $color3;
+                    color: $color1;
+                    width: auto;
+                    margin-top: 3%;
+                    padding:10px 10px 10px 10px ;
+                }
+                h3{
+                    margin-top: 4%;
+                }
+            }
+        }
+        h4{
+            margin-top: 3%;
+        }
+    }
+}

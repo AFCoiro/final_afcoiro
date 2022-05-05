@@ -1,0 +1,17 @@
+$colores: (
+    color1:rgb(255,255,255),
+    color11:rgb(215,215,215),
+    color2:rgb(0, 0, 0),
+    color22:rgb(95, 95, 95),
+    color3:rgb(225,45,38),
+    color33:rgb(191,39,33),
+    color4: rgb(65, 182, 41)
+);
+
+$color1: map-get($colores , color1);
+$color11: map-get($colores , color11);
+$color2: map-get($colores , color2);
+$color22: map-get($colores , color22);
+$color3: map-get($colores , color3);
+$color33: map-get($colores , color33);
+$color4: map-get($colores , color4);

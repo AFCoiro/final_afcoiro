@@ -1,0 +1,42 @@
+@import "var";
+
+body{
+    #pestañaPagos{
+        .classFormPago{
+            .formInputGrupo{
+                margin: 5% auto 5% auto;
+                #divInternoForm{
+                    border: 1px solid $color22;
+                    border-radius: 5px;
+                    padding: 1rem;
+                    background-color: $color11;
+                    .btnCompra{
+                        background-color: $color3;
+                        color: $color1;
+                        width: auto;
+                        margin-top: 3%;
+                        padding:10px 10px 10px 10px ;
+                    }
+                }
+            }
+
+            .table{
+                .fotoPago{
+                    width: 20%;;
+                }
+            }
+            .leyendaPago1{
+                color:$color4;
+            }
+            .leyendaPago2{
+               font-size: 20px;
+               padding-top: 5%;
+               padding-bottom: 15% ;
+            }
+
+        }
+    }
+}
+
+
+

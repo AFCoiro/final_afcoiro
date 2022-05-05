@@ -1,0 +1,122 @@
+@import "var";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: $color1;
+    a{
+        text-decoration: none;
+    }
+    h1,h2,h3,h4,h5,h6{
+        font-family: 'Rubik', sans-serif;
+    }
+    header{
+        .barraLogo{
+            background-color: $color2;
+            .LogoTDT{
+                width: 20%;
+            }
+            .BarraCyR{
+                
+                .redes{
+                    margin-bottom: 30px;
+                    .redS{
+                        width: 20px;
+                    }
+                }
+                .carrito{
+                    width: 30px;
+                    margin-left: 60%;
+                }
+            }
+        }
+        .barraMenu{
+            background-color: $color3;
+            padding-left: 10%;
+            height: 40px;
+            li{
+                border-bottom: 2px solid $color3;
+                a{
+                    color: $color1;
+                    &:hover{
+                        color: $color11;
+                    }
+                }
+                &:hover{
+                    border-bottom: 2px solid $color2;
+                }
+            }
+        }
+    }/*header*/
+    section{
+        h1{
+            margin: 3% auto 3% auto;
+            text-align :center;
+        }
+        .miniBanner{
+            background-color: $color2;
+            margin: 3% auto 3% auto;
+            padding-top:1rem ;
+            h5{
+                color: $color3;
+            }
+            p{
+                color: $color1;
+            }
+            .iconoBanner{
+                width: 40px;
+            }
+        }
+        .cajaDom{
+            margin: 8% auto 8% auto;
+            .linksDom{
+                border:2px solid  $color1;
+                border-bottom: 2px solid $color3;
+                color: $color2;
+                 margin: 1% 1% 1% 1% ;
+                 width: 250px;
+                &:hover{
+                    
+                   border:2px solid  $color11;
+                   border-bottom: 2px solid $color33;
+                   color: $color22;
+                }
+                a{
+                    color: $color22;
+                    &:hover{
+                        color: $color2;
+                    }
+                }
+            }
+        }
+        .destacados{
+            margin-left: 10px;
+            .estrella{
+                width: 30px;
+            }
+        }
+    }/*section*/
+    .footer{
+        border-top: 3px solid $color3;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;  
+        flex-direction: column;  
+        margin-top: 20px; 
+        h5{
+             font-size: 14px;
+             padding-top: 20px;
+             padding-bottom: 20px;
+        }
+        .direcciones{
+            p{
+                color: $color2;
+                font-size: small;
+                text-align: center;
+
+            }
+        }
+    }/*footer*/
+}/*body*/
